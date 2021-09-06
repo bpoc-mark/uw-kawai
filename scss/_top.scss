@@ -2,5 +2,60 @@
   Top
 ==================================*/
 #Top main {
-  margin-top: 100px;
+  .sect_1{
+    .wrapper{
+      margin-top: 55px;
+      padding-top: 30px;
+      padding-bottom: 120px;
+      h3{
+        text-align: center;
+        @include Lato(900);
+        font-size: 54px;
+        color: #f1170d;
+        line-height: 64px;
+        margin-bottom: 50px;
+        span{
+          @include Lato(900);
+          font-size: 54px;
+          color: #f1170d;
+        }
+      }
+      .img_cont{
+        position: relative;
+        &::after{
+          content: "";
+          display: block;
+          width: 78.57vw;
+          margin-left: auto;
+          height: 400px;
+          box-sizing: border-box;
+          border-radius: 40px 0 0 0;
+          background-image: url(../images/top/section_1/img_1.png);
+          background-size: cover;
+          background-position: center center;
+        }
+        .txt_cont{
+          
+          max-width: 1300px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-right: 50px;
+          padding-left: 50px;
+          position: absolute;
+          bottom: -40px;
+          left: 0;
+          right: 0;
+          p{
+            background-color: #fff;
+            width: 735px;
+            @include Lato(300);
+            font-size: 18px;
+            line-height: 27px;
+            padding: 60px 100px 70px 0;
+            border-radius: 0 40px 40px 0;
+          }
+        }
+      }
+    }
+  }
 }

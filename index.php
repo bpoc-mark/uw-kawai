@@ -29,7 +29,7 @@
 		</header>
 
 		<main>
-
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/top/section_1.php"); ?>
 		</main>
 
 		<footer>

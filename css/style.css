@@ -576,8 +576,67 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
-#Top main {
-  margin-top: 100px;
+#Top main .sect_1 .wrapper {
+  margin-top: 55px;
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+#Top main .sect_1 .wrapper h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  color: #f1170d;
+  line-height: 64px;
+  margin-bottom: 50px;
+}
+
+#Top main .sect_1 .wrapper h3 span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  color: #f1170d;
+}
+
+#Top main .sect_1 .wrapper .img_cont {
+  position: relative;
+}
+
+#Top main .sect_1 .wrapper .img_cont::after {
+  content: "";
+  display: block;
+  width: 78.57vw;
+  margin-left: auto;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 40px 0 0 0;
+  background-image: url(../images/top/section_1/img_1.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#Top main .sect_1 .wrapper .img_cont .txt_cont {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+}
+
+#Top main .sect_1 .wrapper .img_cont .txt_cont p {
+  background-color: #fff;
+  width: 735px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 60px 100px 70px 0;
+  border-radius: 0 40px 40px 0;
 }
 
 /*==================================
