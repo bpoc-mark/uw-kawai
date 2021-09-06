@@ -118,4 +118,133 @@
       }
     }
   }
+
+  .sect_3{
+    .wrapper{
+      .container{
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 210px;
+        .item{
+          margin-bottom: 20px;
+          &.itm_left{
+            p{
+              text-align: left;
+              &:nth-of-type(2){
+                @include Lato(900);
+                margin-top: 30px;
+              }
+            }
+          }
+          h4{
+            @include Lato(900);
+            font-size: 18px;
+            color: #f1170d;
+            text-align: center;
+            background-color: #fff0ef;
+            padding: 10px 0;
+            border-radius: 5px;
+            margin-bottom: 15px;
+          }
+          p{
+            @include Lato(300);
+            font-size: 16px;
+            line-height: 27px;
+            color: #000;
+            text-align: left;
+          }
+        }
+        .table_cont{
+          table{
+            display: none;
+          }
+          .table_sp{
+            .wrap{
+              padding-bottom: 20px;
+              &:not(:first-child){
+                margin-top: 20px;
+              }
+              &:not(:last-child){
+                border-bottom: 1px solid #ffdedc;
+              }
+              .row{
+                align-items: flex-start;
+                margin-bottom: 5px;
+                &:first-child{
+                  p{
+                    padding-left: 20px;
+                  }
+                }
+                span{
+                  width: 100px;
+                  background-color: #f1170d;
+                  @include Lato(400);
+                  font-size: 16px;
+                  color: #fff;
+                  text-align: center;
+                  padding: 10px 0;
+                  border-radius: 5px;
+                }
+                p{
+                  width: calc(100% - 100px);
+                  margin: 0;
+                  padding: 5px 0 0 15px;
+                  @include Lato(300);
+                  font-size: 16px;
+                  color: #000;
+                  text-align: left;
+                }
+              }
+            }
+          }
+          p{
+            text-align: left;
+            @include Lato(300);
+            font-size: 16px;
+            color: #000;
+            margin-top: 15px;
+            margin-bottom: 35px;
+          }
+        }
+        .btn_rules{
+          display: block;
+          width: 95%;
+          background-color: #f1170d;
+          color: #fff;
+          text-align: center;
+          margin: 0 auto;
+          padding: 20px 0 20px 0;
+          @include Lato(600);
+          font-size: 18px;
+          border-radius: 50px;
+          margin-bottom: 30px;
+          margin-top: 45px;
+          img{
+            margin-right: 10px;
+            width: 12px;
+          }
+        }
+        .btn_inquiry{
+          display: block;
+          width: 300px;
+          background-color: #f1170d;
+          color: #fff;
+          text-align: center;
+          margin: 0 auto;
+          padding: 20px 0 18px 0;
+          @include Lato(600);
+          font-size: 18px;
+          border-radius: 50px;
+          margin-bottom: 30px;
+          @include is-max(400px){
+            width: 90%;
+          }
+          img{
+            margin-right: 10p x;
+            width: 17px;
+          }
+        }
+      }
+    }
+  }
 }

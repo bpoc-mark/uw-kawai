@@ -31,6 +31,7 @@
 		<main>
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/top/section_1.php"); ?>
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/top/section_2.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/top/section_3.php"); ?>
 		</main>
 
 		<footer>
