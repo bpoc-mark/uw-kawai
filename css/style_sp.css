@@ -742,6 +742,71 @@ img[src$=".png"], img[src$=".jpg"] {
   border-radius: 0 20px 20px 0;
 }
 
+#Top main .sect_2 .wrapper .container {
+  max-width: 1200px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#Top main .sect_2 .wrapper .container h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  color: #f1170d;
+}
+
+#Top main .sect_2 .wrapper .container h3::after {
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  background-color: #f1170d;
+  margin: 15px auto 25px;
+}
+
+#Top main .sect_2 .wrapper .container .row {
+  justify-content: space-between;
+}
+
+#Top main .sect_2 .wrapper .container .row .col:first-child {
+  width: 100%;
+}
+
+#Top main .sect_2 .wrapper .container .row .col:first-child p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+#Top main .sect_2 .wrapper .container .row .col:last-child {
+  display: none;
+  width: 30%;
+}
+
+#Top main .sect_2 .wrapper .container p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+#Top main .sect_2 .wrapper .container .sp_img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#Top main .sect_2 .wrapper .container .sp_img img {
+  width: 80%;
+}
+
 /*==================================
   Contact_reset
 ==================================*/

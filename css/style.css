@@ -639,6 +639,69 @@ img[src$=".png"], img[src$=".jpg"] {
   border-radius: 0 40px 40px 0;
 }
 
+#Top main .sect_2 .wrapper .container {
+  max-width: 1200px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+#Top main .sect_2 .wrapper .container h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  color: #f1170d;
+}
+
+#Top main .sect_2 .wrapper .container h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1170d;
+  margin: 25px auto 45px;
+}
+
+#Top main .sect_2 .wrapper .container .row {
+  justify-content: space-between;
+}
+
+#Top main .sect_2 .wrapper .container .row .col:first-child {
+  width: 68%;
+}
+
+#Top main .sect_2 .wrapper .container .row .col:first-child p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+#Top main .sect_2 .wrapper .container .row .col:last-child {
+  width: 30%;
+}
+
+#Top main .sect_2 .wrapper .container p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+#Top main .sect_2 .wrapper .container .sp_img {
+  margin-bottom: 150px;
+}
+
+#Top main .sect_2 .wrapper .container .sp_img img {
+  display: none;
+}
+
 /*==================================
   Contact_reset
 ==================================*/
