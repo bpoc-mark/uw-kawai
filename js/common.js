@@ -19,11 +19,25 @@ $(function () {
   });
 
   var w = $(window).width();
-  if (w < 900) {
+  $( window ).on("load resize", function() {
+    if (w < 900) {
+      $('.right').removeAttr("style");
+    }
+  });
+  
 
-  }
+  $('.menu').click(function () {
+    $('.overlay').toggleClass('active');
+    $(this).toggleClass('active');
+    $('.right').toggleClass('active');
+    $('.right').css({"transition": ".5s ease"});
+    $('.line-t').toggleClass('show');
+    $('.line-m').toggleClass('show');
+    $('.line-b').toggleClass('show');
+  });
 
 });
+
 
 
 
@@ -94,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Barlow+Condensed:500','Oswald:400,600', 'Lato:100,300,400,700,900', 'Noto+Sans+JP:300,400,500&subset=japanese']
+    families: ['Barlow+Condensed:500','Oswald:400,600', 'Lato:100,300,400,500,600,700,900', 'Noto+Sans+JP:300,400,500&subset=japanese']
   },
   active: function () {
     sessionStorage.fonts = true;

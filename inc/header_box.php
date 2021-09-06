@@ -3,23 +3,58 @@ $str = explode('/', $url); ?>
 
 <div class="header_inner">
 
-	<?php
-	if ($str[1] == "") {
-		echo '<h1 class="logo"><a href="/"><img src="/images/common/logo.svg" alt=""></a></h1>';
-	} else {
-		echo '<p class="logo"><a href="/"><img src="/images/common/logo.svg" alt=""></a></p>';
-	}
-	?>
-
-	<nav>
+	<div class="left">
+		<?php
+			if ($str[1] == "") {
+				echo '<h1 class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt=""></a></h1>';
+			} else {
+				echo '<p class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt=""></a></p>';
+			}
+		?>
+	</div>
+	<div class="middle">
+		<ul>
+			<li>
+				<a href="">
+					<img src="/images/common/fb_icon.svg" alt=""></a>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="/images/common/ig_icon.svg" alt=""></a>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="/images/common/weibo_icon.png" alt=""></a>
+				</a>
+			</li>
+		</ul>
+		<div class="menu">
+			<span class="line line-t"></span>
+			<span class="line line-m"></span>
+			<span class="line line-b"></span>
+			<p></p>
+		</div>
+		<div class="overlay"></div>
+	</div>
+	<nav class="right">
 		<ul>
 			<li><a href="/" <?php if ($str[1] == "") {
-												echo ' class="here"';
-											} ?>>HOME</a></li>
+				echo ' class="here"';
+			} ?>>PHILOSOPHY</a></li>
 			<li><a href="/about/" <?php if ($str[1] == "about") {
-															echo ' class="here"';
-														} ?>>about</a></li>
+				echo ' class="here"';
+			} ?>>COURSES</a></li>
+			<li><a href="/about/" <?php if ($str[1] == "about") {
+				echo ' class="here"';
+			} ?>>EVENTS</a></li>
+			<li><a href="/about/" <?php if ($str[1] == "about") {
+				echo ' class="here"';
+			} ?>>INSTRUCTORS</a></li>
+			<li><a href="/about/" <?php if ($str[1] == "about") {
+				echo ' class="here"';
+			} ?>>CONTACT</a></li>
 		</ul>
 	</nav>
-
 </div>
