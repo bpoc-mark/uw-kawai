@@ -247,7 +247,91 @@ header {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  background: #e03122;
+  padding-top: 40px;
+  .footer_inner{
+    justify-content: space-between;
+    align-items: center;
+    &.container{
+      max-width: 1300px;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+    .left{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+      a{
+        img{
+          width: 115px;
+        }
+      }
+    }
+    .right{
+      width: 100%;
+      .footer_contact{
+        background-color: #fff;
+        width: 100%;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        h4{
+          @include Lato(900);
+          font-size: 16px;
+          color: #f1170d;
+          width: 110px;
+          @include is-max(375px){
+            width: 100%;
+            margin-bottom: 10px;
+          }
+        }
+        .btn_contact{
+          width: calc(100% - 110px);
+          @include is-max(375px){
+            width: 100%;
+          }
+          p{
+            @include Lato(300);
+            font-size: 13px;
+            color: #000;
+            margin-bottom: 7px;
+          }
+          a{
+            @include Lato(600);
+            font-size: 13.5px;
+            color: #fff;
+            background-color: #e03122;
+            width: 100%;
+            text-align: center;
+            display: block;
+            padding: 12.5px 0;
+            border-radius: 50px;
+            img{
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+    }
+    .copy{
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: right;
+      small{
+        @include Lato(300);
+        font-size: 9px;
+        color: #ff9197;
+      }
+    }
+  }
 }
 
 #pageTop {

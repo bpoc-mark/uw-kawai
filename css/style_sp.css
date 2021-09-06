@@ -272,7 +272,112 @@ header .header_inner .right ul li a {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  background: #e03122;
+  padding-top: 40px;
+}
+
+footer .footer_inner {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer_inner.container {
+  max-width: 1300px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+footer .footer_inner .left {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer .footer_inner .left a img {
+  width: 115px;
+}
+
+footer .footer_inner .right {
+  width: 100%;
+}
+
+footer .footer_inner .right .footer_contact {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .footer_inner .right .footer_contact h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #f1170d;
+  width: 110px;
+}
+
+@media only screen and (max-width: 375px) {
+  footer .footer_inner .right .footer_contact h4 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+footer .footer_inner .right .footer_contact .btn_contact {
+  width: calc(100% - 110px);
+}
+
+@media only screen and (max-width: 375px) {
+  footer .footer_inner .right .footer_contact .btn_contact {
+    width: 100%;
+  }
+}
+
+footer .footer_inner .right .footer_contact .btn_contact p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 7px;
+}
+
+footer .footer_inner .right .footer_contact .btn_contact a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 13.5px;
+  color: #fff;
+  background-color: #e03122;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 12.5px 0;
+  border-radius: 50px;
+}
+
+footer .footer_inner .right .footer_contact .btn_contact a img {
+  margin-right: 15px;
+}
+
+footer .footer_inner .copy {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+}
+
+footer .footer_inner .copy small {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 9px;
+  color: #ff9197;
 }
 
 #pageTop {
@@ -810,7 +915,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_3 .wrapper .container {
   padding-right: 25px;
   padding-left: 25px;
-  padding-bottom: 210px;
+  padding-bottom: 100px;
 }
 
 #Top main .sect_3 .wrapper .container .item {

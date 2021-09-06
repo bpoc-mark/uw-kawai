@@ -166,7 +166,91 @@ header .header_inner .menu {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  background: #e03122;
+  padding-top: 40px;
+}
+
+footer .footer_inner {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer_inner.container {
+  max-width: 1300px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+footer .footer_inner .left {
+  width: 50%;
+  text-align: center;
+}
+
+footer .footer_inner .left a img {
+  width: 186px;
+}
+
+footer .footer_inner .right {
+  width: 50%;
+}
+
+footer .footer_inner .right .footer_contact {
+  background-color: #fff;
+  width: 85%;
+  margin-left: auto;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer .footer_inner .right .footer_contact h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: #f1170d;
+  margin-bottom: 30px;
+}
+
+footer .footer_inner .right .footer_contact .btn_contact p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+footer .footer_inner .right .footer_contact .btn_contact a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background-color: #e03122;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 20px 0;
+  border-radius: 50px;
+}
+
+footer .footer_inner .right .footer_contact .btn_contact a img {
+  margin-right: 15px;
+}
+
+footer .footer_inner .copy {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  text-align: right;
+}
+
+footer .footer_inner .copy small {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #ff9197;
 }
 
 #pageTop {
