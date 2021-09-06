@@ -43,16 +43,16 @@ $str = explode('/', $url); ?>
 			<li><a href="/" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>PHILOSOPHY</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
+			<li><a href="/" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>COURSES</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
+			<li><a href="/event/" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>EVENTS</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
+			<li><a href="/" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>INSTRUCTORS</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
+			<li><a href="http://musicschool.kawai-global.com/contact/" target="_blank" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>CONTACT</a></li>
 		</ul>

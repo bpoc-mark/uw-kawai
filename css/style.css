@@ -661,8 +661,8 @@ img[src$=".png"], img[src$=".jpg"] {
   Top
 ==================================*/
 #Top main .sect_1 .wrapper {
-  margin-top: 55px;
-  padding-top: 30px;
+  margin-top: 70px;
+  padding-top: 70px;
   padding-bottom: 120px;
 }
 
@@ -946,6 +946,134 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_3 .wrapper .container .btn_inquiry img {
   margin-right: 10px;
+}
+
+/*==================================
+  Top
+==================================*/
+#Top main .e_sect_1 .wrapper {
+  margin-top: 70px;
+  padding-top: 95px;
+  padding-bottom: 150px;
+}
+
+#Top main .e_sect_1 .wrapper h3 {
+  margin-bottom: 90px;
+}
+
+#Top main .e_sect_1 .wrapper .img_cont {
+  position: relative;
+}
+
+#Top main .e_sect_1 .wrapper .img_cont::after {
+  background-image: url(../images/event/section_1/img_1.png);
+}
+
+#Top main .e_sect_2 .wrapper .container {
+  max-width: 838px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: 4px solid #ffa4a4;
+  border-radius: 20px;
+}
+
+#Top main .e_sect_2 .wrapper .container .row {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#Top main .e_sect_2 .wrapper .container img {
+  width: 143px;
+  margin-right: 35px;
+}
+
+#Top main .e_sect_2 .wrapper .container .col {
+  width: unset;
+}
+
+#Top main .e_sect_2 .wrapper .container .col h4 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  color: #000;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+#Top main .e_sect_2 .wrapper .container .col p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+}
+
+#Top main .e_sect_3 .wrapper {
+  padding-top: 100px;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap {
+  margin-bottom: 150px;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap:nth-of-type(3) {
+  margin-bottom: 80px;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  color: #f1170d;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1170d;
+  margin: 25px auto 40px;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  line-height: 27px;
+  margin-bottom: 40px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap .row {
+  justify-content: space-between;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap .row .col {
+  width: 32.5%;
+  position: relative;
+}
+
+#Top main .e_sect_3 .wrapper .container .wrap .row .col span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #fa372e;
+  border-radius: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 /*==================================

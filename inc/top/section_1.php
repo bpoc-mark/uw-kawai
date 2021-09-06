@@ -1,10 +1,9 @@
-<section class="sect_1">
+<section class="sect_1 e_sect_1">
     <div class="wrapper">
-        <h3><span>KAWAI MUSIC SCHOOL</span><br>
-            PIANO COMPETITION ONLINE</h3>
+        <h3>EVENTS</h3>
         <div class="img_cont">
             <div class="txt_cont">
-                <p>We are pleased to announce that we will be hosting “KAWAI MUSIC SCHOOL PIANO COMPETITION ONLINE”.</p>
+                <p>In addition to daily lessons, we hold many different events to share the achievements of that learning and the excitement of music.</p>
             </div>
         </div>
     </div>

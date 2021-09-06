@@ -7,7 +7,7 @@
 			<h4>CONTACT</h4>
 			<div class="btn_contact">
 				<p>Please feel free to contact us</p>
-				<a href=""><img src="/images/top/section_3/email_icon.png" alt="<?php echo SITE_NAME; ?>">Click here for inquiries</a>
+				<a href="http://musicschool.kawai-global.com/contact/" target="_blank"><img src="/images/top/section_3/email_icon.png" alt="<?php echo SITE_NAME; ?>">Click here for inquiries</a>
 			</div>
 		</div>
 	</div>
